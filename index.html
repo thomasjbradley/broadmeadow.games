@@ -3,102 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <title>Broadmeadow Games</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="type.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      html {
-        --brand-blue: #153677;
-        --brand-gold: #ead377;
-        --brand-grey: #d7d5d5;
-        --brand-grey-alt: #cecaca;
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-      }
-      body {
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        background-color: var(--brand-grey);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: "IBM Plex Sans Condensed", sans-serif;
-        font-size: 100%;
-        line-height: 1.5;
-        background-image: repeating-linear-gradient(
-          -42.8deg,
-          transparent 0,
-          transparent 5px,
-          var(--brand-grey-alt) 5px,
-          var(--brand-grey-alt) 10px
-        );
-      }
-      img {
-        display: block;
-      }
-      p {
-        margin: 0 0 1.5rem;
-      }
-      .logo-wrap {
-      }
-      .logo {
-        width: 24rem;
-        margin-bottom: 2.4rem;
-      }
-      .text-wrap {
-        padding: 4rem;
-        text-align: center;
-        background-image: linear-gradient(
-          -42.8deg,
-          transparent 0,
-          transparent 4rem,
-          var(--brand-grey) 4rem,
-          var(--brand-grey) calc(100% - 4rem),
-          transparent calc(100% - 4rem),
-          transparent 100%
-        );
-      }
-      .motto {
-        font-size: 1.8rem;
-        font-weight: 500;
-      }
-      .why-wrap {
-      }
-      .why {
-        font-size: 1.3rem;
-        text-align: center;
-        max-width: 32em;
-        margin-bottom: 4rem;
-      }
-      .links {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        gap: 2.4rem;
-      }
-      .links img {
-        height: 4rem;
-      }
-    </style>
   </head>
   <body>
-    <div class="logo-wrap">
-      <img class="logo" src="logo.svg" alt="Broadmeadow Games" />
-    </div>
-    <div class="text-wrap">
-      <p class="motto">
+    <h1 class="logo-wrap island text-center">
+      <img class="logo img-block" src="logo.svg" alt="Broadmeadow Games" />
+    </h1>
+    <div class="text-wrap push-2">
+      <h2 class="motto tera bold">
         <em>Fun &amp; friendly open license games for everybody.</em>
-      </p>
+      </h2>
       <div class="why-wrap">
         <p class="why">
           <strong

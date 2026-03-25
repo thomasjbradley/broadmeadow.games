@@ -1,0 +1,102 @@
+# Application
+*.min.css
+/log.json
+/config/certs/*.pem
+/config/certs/*.cert
+/config/certs/*.crt
+/config/certs/*.key
+/config/certs/*.pfx
+/config/sri.json
+/requirements.txt
+/requirements.in
+/requirements.dev.txt
+/requirements.dev.in
+*.pid
+*.dump
+.vscode
+.idea/
+.direnv
+.pg
+.py
+.pybin
+.pre-commit
+.venv
+*.rdb
+pyinstrument-profile.html
+memory-usage.txt
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+.Python
+
+# Environment
+env
+.env
+.envrc
+remote.env
+dev.env
+!/config/**/.env
+
+# Vendor files
+node_modules
+npm-debug.log
+vendor
+.markbot.yml
+
+# Temporary files
+tmp
+*.log
+*.log.csv
+*.har
+
+# Adobe files
+*.pdf
+*.ai
+*.psd
+*.indd
+*.indb
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.7z
+
+# Type faces
+*.ttf
+*.woff
+*.eot
+*.ttc
+
+# Video & audio
+*.mov
+*.mp4
+*.m4v
+*.f4v
+*.f4p
+*.ogv
+*.webm
+*.flv
+*.mp3
+*.m4a
+*.f4a
+*.f4b
+*.oga
+*.ogg
+*.opus
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
